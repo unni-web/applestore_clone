@@ -7,7 +7,10 @@ body {
     /* margin-left: 50px; */
     background-color: #f0f0f2;
 }
+.main{
+    margin-left: 60px;
 
+}
 
 
 /* navbar */
@@ -446,6 +449,8 @@ padding-top: 50px;
     position: relative;
     flex-shrink: 0;
     border-radius: 30px;
+        overflow: hidden;
+
 }
 
 .b3 .b3scroll .d1b {
@@ -511,3 +516,191 @@ color: white;
     color: black;
     font-weight: 400;
 }
+
+
+
+
+
+
+
+/* div6  */
+.b4 {
+    height: 500px;
+    width: 100%;
+    /* background-color: aliceblue; */
+    display: block;
+padding-top: 50px;
+}
+
+.b4 .b4_text {
+    height: 50px;
+    width: 100%;
+    /* background-color: yellow; */
+    font-size: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.b4 .b4_text span {
+    color: #6e6e73;
+    font-weight: 600;
+
+}
+
+.b4 .b4_text h4 {
+    margin: 0;
+    font-weight: 600;
+    /* padding-left: 20px; */
+
+
+}
+
+.b4 .b4scroll {
+    /* margin-top: 40px; */
+    height: 500px;
+    width: 100%;
+    /* background-color: thistle; */
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 30px;
+    box-sizing: border-box;
+    scrollbar-width: none;
+
+}
+
+.b4 .b4scroll .d1 {
+    background-color: black;
+    height: 450px;
+    width: 350px;
+    position: relative;
+    flex-shrink: 0;
+    border-radius: 30px;
+        overflow: hidden;
+}
+
+.b4 .b4scroll .d1c {
+    background-color: white;
+    height: 450px;
+    width: 350px;
+    position: relative;
+    flex-shrink: 0;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.b4 .d1 h5 {
+    font-size: 25px;
+    margin: 0;
+    margin-top: 50px;
+    position: absolute;
+    padding: 5px;
+    font-weight: 600;
+color: white;
+}
+
+.b4 .d1 img {
+    margin-left: 20px;
+    margin-top: 50px;
+    height: 400px;
+    width: 330px;
+}
+
+.b4 .d1c h5 {
+    font-size: 25px;
+    margin: 0;
+    position: absolute;
+    padding-left: 15px;
+    font-weight: 600;
+margin-top: 50px;
+
+}
+
+
+
+.b4 .d1c img {
+    margin-left: 18px;
+    /* margin-top: 10px; */
+    height: 400px;
+    width: 320px;
+    border-radius: 5px;
+}
+
+.d1c p {
+    color: black;
+    margin: 0;
+    font-size: 15px;
+    margin-top: 90px;
+    margin-left: 16px;
+    font-weight: 600;
+}
+
+.d1c h6 {
+    font-size: 15px;
+    position: absolute;
+    padding: 10px;
+    padding-top: 0;
+    margin-top: 3px;
+    padding-left: 17px;
+    color: black;
+    font-weight: 400;
+}
+
+
+
+
+/* banner */
+.b
+{
+    height: 100px;
+    width: 100%;
+    /* background-color: yellowgreen; */
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+h6{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+    /* margin-left: 50px; */
+}
+.b button{
+    height: 30px;
+    width: 100px;
+    border-radius: 80px;
+    border:1px solid black;
+    background-color:#f0f0f2 ;
+    /* border-width: 2px; */
+}
+.end{
+    width: 920px;
+    align-content: center;
+    margin-left: 80px;
+}
+.end p{
+    font-size: 10px;
+    color: #6c6c6c;
+
+}
+.end2{
+    display: flex;
+    gap: 50px;
+        margin-left: 80px;
+
+}
+.e1{
+    /* background-color: violet; */
+    width: 200px;
+}
+.end2 h6{
+font-size: 10px;
+}
+.end2  p{
+    font-size: 10px;
+
+}
+
+
+
